@@ -8,7 +8,7 @@ int main(){
     */
    int i, j, count, temp, number[25];
 
-   printf("How many numbers u are going to enter?: ");
+   printf("Enter the size of array: ");
    scanf("%d",&count);
 
    printf("Enter %d elements: ", count);
@@ -16,7 +16,7 @@ int main(){
    for(i=0;i<count;i++)
       scanf("%d",&number[i]);
 
-   // Implementation of insertion sort algorithm
+
    for(i=1;i<count;i++){
       temp=number[i];
       j=i-1;
